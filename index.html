@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=deviec-width", initial-scale="1.0">
+    <title>Personal Portfolio Website-Hasan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0a87364fd4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo"><span>Ha</span>san.</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Analyst</p>
+            <h1>Hello, I'm <span>Hasan</span><br></h1><h2>a Data Enthusiast</h2>
+        </div>
+
+    <div class="header-link">
+        
+        <a href="https://www.linkedin.com/in/mhmd-hasan/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100005997152971"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://github.com/hasanahmed88"><i class="fa-brands fa-github"></i></a>
+    
+    </div>
+
+    </div>
+
+    
+</div>
+
+<!----------About-------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/BG-2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Mohammad Hasan Mia, a data enthusiast. I adore transforming numbers into stories that guide smart choices.
+                    I have passion for practical data insights. I turn data into actionable insights using Excel, Power BI & SQL.
+                    My strong analytical skills helps to make a quick and positive impact.             </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>MS EXCEL</span><br>• Data Cleaning  • Functions & Formulas • Conditional Formatting <br>• Data Validation • Pivot Tables  • Power Pivot  • Graphs & Charts</li>
+                        <li><span>MS POWER BI</span><br>• Extract, Transform & Load (ETL) • Data Modeling • DAX Measures • Data Visualizaion</li>
+                        <li><span>SQL</span><br>• Database • Query Language</li>
+            
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>SECTION MANAGER - ACCOUNTS & FINANCE</span><br>C. P. Bangladesh Co., Ltd<br>January 2015 to Continue</li>
+                        
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>MASTER OF BUSINESS ADMINISTRATION (MBA)</span><br>Accounting & Information Systems<br>Jagannath University, Dhaka<br>CGPA : 3.29 (Out of 4)</li>
+                        <li><span>BACHELOR OF BUSINESS ADMINISTRATION (BBA)</span><br>Accounting & Information Systems<br>Jagannath University, Dhaka<br>CGPA : 3.34 (Out of 4)</li>
+                        
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------Portfolio------------>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Excel-1.png">
+                <div class="layer">
+                    <h3>Excel_Adventure_Works_Sales_Dashboard</h3>
+                    <p>This is an end to end Data Analytics project done in Excel by using Adventure Works sales data. 
+                        Power Query, Power Pivot & Dax formula concepts are used to create this dashboard. 
+                        The captivating visuals will make data-driven story crystal clear.</p>
+                    <a href="https://github.com/hasanahmed88/Excel_Adventure_Works_Sales_Dashboard"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Excel-2.png">
+                <div class="layer">
+                    <h3>Excel_Sales_Performance_Dashboard</h3>
+                    <p>This dashboard presents an analysis of sales data of a company over two particular year. 
+                        The main objective of this analysis is to depict the year wise profit of the company. 
+                        This specifically gives insights about the profit made by the company from various region over the entire period.</p>
+                    <a href="https://github.com/hasanahmed88/Excel_Sales_Performance_Dashboard"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Excel-3.png">
+                <div class="layer">
+                    <h3>Excel_Super_Store_Dashboard</h3>
+                    <p>The dashboard presents an analysis of superstore data about the overall performance of the company over a particular period. 
+                        Concepts like excel functions, pivot tables, conditional formatting, Filters, Sorting, Grouping, removing duplicates etc. 
+                        were applied in this project.</p>
+                    <a href="https://github.com/hasanahmed88/Excel_Super_Store_Sales_Analysis"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Power BI-1.png">
+                <div class="layer">
+                    <h3>Power-BI_Sales-Analysis_Report</h3>
+                    <p>Applied Data cleaning using Power Query, Data Modeling, writing DAX formulas to track KPIs like; sales, 
+                        revenue, profit, return, compare regional performance, analyze product-level trends and forecasts, identify high-value custiomers etc. 
+                        and allows users to drill down into the data to gain deeper insights.</p>
+                    <a href="https://github.com/hasanahmed88/Power-BI_Sales-Analysis_Report"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/SQL & Power BI.png">
+                <div class="layer">
+                    <h3>SQL_Power BI_HR_Data_Analysis</h3>
+                    <p>This project is a HR analytics report built using MySQL Workbench, Microsoft Power BI to generate a dynamic visualization. 
+                        Importing data, data cleaning & data analysis was done by using MySQL Workbench and query results are used for creating 
+                        a simple Power BI report.</p>
+                    <a href="https://github.com/hasanahmed88/SQL_Power-BI_HR_Data_Analysis"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/SQL-1.png">
+                <div class="layer">
+                    <h3>SQL_Customer_Behaviour_Analysis</h3>
+                    <p>This project is abount Danny's Dinner - a restaurant customer behavioiur analysis. Create database, create table, insert data into 
+                        table & data analysis all are done by using MySQL.</p>
+                    <a href="https://github.com/hasanahmed88/SQL_Customer_Behaviour_Analysis"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+        </div>
+
+    </div>
+</div>
+
+<!-------------------Contact-------------->
+
+<div id="contact">
+    <div class="container">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>hasan2013ahmed@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+8801816273033</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mhmd-hasan/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100005997152971"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/hasanahmed88"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                <a href="images/Mohammad Hasan Mia_Resume.pdf" download class="btn">Download CV</a>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+    
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+
+</body>
+</html>
